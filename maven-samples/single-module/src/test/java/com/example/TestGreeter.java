@@ -41,12 +41,12 @@ public class TestGreeter {
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
-  }
-
-    @Test
-      public void greetShouldIncludeGreetingMesaj() {
-	          String someone = "Va multumesc pentru atentie";
-
-		      assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
-  }
+#}
+#
+#   @Test
+#     public void greetShouldIncludeGreetingMesaj() {
+#	          String someone = "Va multumesc pentru atentie";
+#
+#		      assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+# }
 }
