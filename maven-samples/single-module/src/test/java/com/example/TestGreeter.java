@@ -49,7 +49,7 @@ public class TestGreeter {
 		    }
    @Test
      public void greetShouldIncludeGreetingMesaj2() {
-	                   String someone = "Multumesc,lume din nou!";
+	                   String someone = "Multumesc,xxxlume din nou!";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
